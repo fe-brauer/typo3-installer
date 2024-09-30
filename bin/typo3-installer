@@ -4,7 +4,7 @@
 require __DIR__ . '/../vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
-use Faktore\TYPO3Installer\Commands\LaunchCommand;
+use FeBrauer\TYPO3Installer\Commands\LaunchCommand;
 
 $app = new Application();
 $app->add(new LaunchCommand());

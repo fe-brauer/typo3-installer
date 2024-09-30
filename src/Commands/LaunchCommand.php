@@ -1,6 +1,6 @@
 <?php
 
-namespace Faktore\TYPO3Installer\Commands;
+namespace FeBrauer\TYPO3Installer\Commands;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;

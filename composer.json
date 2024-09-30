@@ -1,5 +1,5 @@
 {
-    "name": "faktore/typo3-installer",
+    "name": "fe-brauer/typo3-installer",
     "description": "CLI tool for launching TYPO3 projects",
     "type": "library",
     "license": "MIT",
@@ -19,7 +19,7 @@
     },
     "autoload": {
       "psr-4": {
-        "Faktore\\TYPO3Installer\\": "src/"
+        "FeBrauer\\TYPO3Installer\\": "src/"
       }
     },
     "bin": ["bin/typo3-installer"]
