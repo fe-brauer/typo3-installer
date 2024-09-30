@@ -1,0 +1,26 @@
+{
+    "name": "faktore/typo3-installer",
+    "description": "CLI tool for launching TYPO3 projects",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://www.faktor-e.de",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Christoph Brauer",
+            "email": "brauer@faktor-e.de",
+            "homepage": "https://www.faktor-e.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+      "php": "^7.4 || ^8.0",
+      "symfony/console": "^7.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Faktore\\TYPO3Installer\\": "src/"
+      }
+    },
+    "bin": ["bin/typo3-installer"]
+  }
